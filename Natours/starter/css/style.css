@@ -222,6 +222,13 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.form__input {
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  background: rgba(238, 238, 238, 0.5);
+  border: none; }
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
