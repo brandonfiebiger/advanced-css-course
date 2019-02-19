@@ -231,7 +231,10 @@ body {
   padding: 1.5rem 2rem;
   border-radius: 2px;
   background: rgba(238, 238, 238, 0.5);
-  border: none; }
+  border: none;
+  border-bottom: 3px solid transparent;
+  width: 90%;
+  display: block; }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
