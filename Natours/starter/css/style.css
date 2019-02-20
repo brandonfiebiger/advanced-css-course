@@ -277,7 +277,7 @@ body {
   display: inline-block;
   position: absolute;
   left: 0;
-  top: 0; }
+  top: -.4rem; }
   .form__radio-button::after {
     content: "";
     display: block;
@@ -288,7 +288,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #55c57a; }
+    background: #55c57a;
+    opacity: 0; }
 
 .card {
   perspective: 150rem;

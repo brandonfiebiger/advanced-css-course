@@ -71,7 +71,7 @@
     display: inline-block;
     position: absolute;
     left: 0;
-    top: 0; 
+    top: -.4rem; 
 
 
     &::after {
@@ -85,6 +85,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       background: $color-primary;
+      opacity: 0;
     }
   }
 }
