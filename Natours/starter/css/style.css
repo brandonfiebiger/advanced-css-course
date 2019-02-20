@@ -259,6 +259,10 @@ body {
   visibility: hidden;
   transform: translateY(-4rem); }
 
+.form__radio-group {
+  width: 50%;
+  display: inline-block; }
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;

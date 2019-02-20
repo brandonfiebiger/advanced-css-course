@@ -49,4 +49,9 @@
     visibility: hidden;
     transform: translateY(-4rem);
   }
+
+  &__radio-group {
+    width: 50%;
+    display: inline-block;
+  }
 }
